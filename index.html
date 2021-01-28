@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora con JQUERY</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="/assets/js/script.js"></script>
+    <link rel="stylesheet" href="/assets/css/estilos.css">
+</head>
+
+<body>
+    <div class="encabezado">
+        <h1>Calculadora</h1>
+        <h6>Calculadora con JQUERY</h6>
+    </div>
+    <table class="table table-sm">
+        <div class="table-responsive">
+            <table class="table align-middle calculadora">
+                
+                <tr>
+                    <td colspan="4"><span id="resultado"></span></td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-primary" id="reset">C</button></td>
+                    <td><button type="button" class="btn btn-danger" id="raiz">&radic;<span
+                                style="text-decoration: overline"></span></button></td>
+                    <td><button type="button" class="btn btn-danger" id="potencia">&#8743;<span
+                                style="text-decoration: overline"></span></button></td>
+                    <td><button type="button" class="btn btn-danger" id="division">/</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-primary" id="siete">7</button></td>
+                    <td><button type="button" class="btn btn-primary" id="ocho">8</button></td>
+                    <td><button type="button" class="btn btn-primary" id="nueve">9</button></td>
+                    <td><button type="button" class="btn btn-danger" id="resta">-</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-primary" id="cuatro">4</button></td>
+                    <td><button type="button" class="btn btn-primary" id="cinco">5</button></td>
+                    <td><button type="button" class="btn btn-primary" id="seis">6</button></td>
+                    <td><button type="button" class="btn btn-danger" id="multiplicacion">*</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-primary" id="uno">1</button></td>
+                    <td><button type="button" class="btn btn-primary" id="dos">2</button></td>
+                    <td><button type="button" class="btn btn-primary" id="tres">3</button></td>
+                    <td><button type="button" class="btn btn-danger" id="suma">+</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-danger" id="masmenos">&#177;<span
+                                style="text-decoration: overline"></span></button></td>
+                    <td><button type="button" class="btn btn-primary" id="cero">0</button></td>
+                    <td><button type="button" class="btn btn-danger" id="punto">.</button></td>
+                    <td><button type="button" class="btn btn-success" id="igual">=</button></td>
+                </tr>
+
+                </tr>
+            </table>
+            <div class="mostrar">
+                <h3>Detalle</h3>
+                <!-- <span id="detalle"></span> -->
+                    <div id="detalle" class="btnT btn-warning"></div>
+            </div>
+    </table>
+    </div>
+    </table>
+</body>
+
+</html>
