@@ -128,7 +128,7 @@ function resolver() {
    desplegar.innerHTML = "";
    var i = 0;
    while (i < detalle.length) {
-       desplegar.innerHTML +=  `<span class="btnR">${detalle[i]}</span> `
+       desplegar.innerHTML +=  `<p class="btnR">${detalle[i]}</p> `
        i++;
    }
 
